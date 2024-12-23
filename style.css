@@ -1,0 +1,21 @@
+@font-face {
+    src: url(fonts/LexendDeca-VariableFont_wght.ttf);
+    font-family: h1;
+}
+@font-face {
+    src: url(fonts/LexendDeca-VariableFont_wght.ttf);
+    font-family: h4;
+}
+body{
+    background-color: rgb(201, 201, 201);
+}
+main{
+    border: solid;
+    border-radius: 9px;
+}
+h1{
+    font-family: h1;
+}
+h4{
+    font-family: h4;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+    <head> <title> Team Application </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> <header>
+    <h1> Infobrains Team Application</h1>
+    <h4>Fill This Form</h4>
+    <hr>
+
+    </header>
+    <main>
+        <form method="post" action="index.php">
+            <label for="name" id="lname">Lastname:</label>
+            <input type="text" id="name" required placeholder="Eg:Mendes">
+            <label for="firstname">Firstname:</label>
+            <input type="text" id="firstname" placeholder="Eg:Dave" required>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" placeholder="0123456789" required pattern="[0-9]{10}">
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required placeholder="Abcde123@gmail.com">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required minlength="8">
+            <br>
+            <label for="bday">Date of Birth:</label>
+            <input type="date" id="bday" required>
+            <label for="pday">Place of Birth:</label>
+            <select required>
+                <option>01. Adrar</option>
+                <option>02. Chlef</option>
+                <option>03. Laghouat</option>    
+                <option>04. Oum El Bouaghi</option>
+                <option>05. Batna</option>    
+            </select>
+            <br>
+            <label for="gender">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender">
+            <br>
+            <input type="submit">
+        </form>
+    </main>
+    <footer>
+        <hr>
+            By Omar Mendas<br>
+            &copy;All Rights Reserved
+        
+
+    </footer>
+</body>
